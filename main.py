@@ -85,7 +85,7 @@ if con.lower() == "yas":
     print(" ")
     print("six")
     while True:
-        qtn = input("which is the country with the most people =  ")
+        qtn = input("which is the country with the most people(population) =  ")
         if len(qtn) == 0:
             print("pls enter answer")
         else:
@@ -162,9 +162,14 @@ if con.lower() == "yas":
                 print("wrongh")
                 speak("wrongh")
                 break
+    print(" ")
+    print("eleven")
+    while True:
+        qtn = input(" ")
+        if len(qtn) == 0:
     print("\n <*************  Result  ****************>")
     print("you got " + str(score) + " qustion  given answer correct")
-    res = str((score/10) * 100)
+    res = str((score/11) * 100)
     print(res + "%")
     if res >= "80":
         print("first division")
