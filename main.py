@@ -165,8 +165,19 @@ if con.lower() == "yas":
     print(" ")
     print("eleven")
     while True:
-        qtn = input(" ")
+        qtn = input("how many time duretion of the full indian national anthem =  ")
         if len(qtn) == 0:
+            print("pls enter answer")
+        else:
+            if qtn == "51":
+                print("correct")
+                speak("correct")
+                score += 1
+                break
+            else:
+                print("wrongh")
+                speak("wrongh")
+                break
     print("\n <*************  Result  ****************>")
     print("you got " + str(score) + " qustion  given answer correct")
     res = str((score/11) * 100)
