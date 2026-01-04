@@ -169,7 +169,7 @@ if con.lower() == "yas":
         if len(qtn) == 0:
             print("pls enter answer")
         else:
-            if qtn == "51":
+            if qtn == "52":
                 print("correct")
                 speak("correct")
                 score += 1
